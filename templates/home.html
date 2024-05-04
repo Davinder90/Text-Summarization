@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        {% load static %} 
+        <link rel = "stylesheet" href = "{% static 'home.css'%}"> 
+    </head>
+    <body>
+        <div class = "container">
+            <h1 id = "head">Text Summarization</h1>
+            <div class = "content">
+                <form action = "summary" class = "input">
+                    <textarea name = "newText" rows = "20" cols = "65" placeholder = "Enter or paste your text and press 'Summarize'"></textarea>
+                    <button type = "submit">Summarize</button> 
+                </form>
+                <div class = "output">{{result}}</div>
+            </div>
+        </div>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
