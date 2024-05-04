@@ -1,0 +1,17 @@
+Requirements or dependices of the project
+
+py -m venv tsenv
+
+tsenv\Scripts\activate.bat
+
+py -m pip install Django
+
+py -m pip install nltk
+
+django-admin startproject summarization
+
+cd summarization
+
+py manage.py runserver
+
+http://127.0.0.1:8000/
